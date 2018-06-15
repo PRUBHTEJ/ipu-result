@@ -17,4 +17,4 @@ python2 main.py
 
 
 BUGS:
-NAME of student can't be extracted due to some reg exp problem
+NAME of student can't be extracted due to some reg exp problem in some cases.

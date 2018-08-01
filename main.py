@@ -72,8 +72,10 @@ def beautiy(xdata):
 			avg+=float(i[3])
 		print '{0:10s} {1:10s} {2:10s} {3:10s}'.format(i[0],i[1],i[2],i[3])
 	print("\n")
-	print "semester % = ",avg/len(allx)
-
+	try:
+		print "semester % = ",avg/len(allx)
+	except:
+		print "ERROR!!!"
 
 print("Do You want to download result file again?(y/n)")
 ch=raw_input()

@@ -69,7 +69,7 @@ def beautiy(xdata):
     avg = 0
     for i in allx:
         if i[3]!="A":
-            avg+ = float(i[3])
+            avg += float(i[3])
         print '{0:10s} {1:10s} {2:10s} {3:10s}'.format(i[0],i[1],i[2],i[3])
     print("\n")
     try:
@@ -111,5 +111,4 @@ while(X == 'y'):
                 break
     print("\n\nCheck another roll no :(y/n)")
     X = raw_input()
-
 
